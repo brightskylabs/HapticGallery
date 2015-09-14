@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F105B4AF1BA771C70016F953 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105B4AE1BA771C70016F953 /* AppDelegate.swift */; };
+		F105B4B11BA771C70016F953 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105B4B01BA771C70016F953 /* ViewController.swift */; };
+		F105B4B41BA771C70016F953 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F105B4B21BA771C70016F953 /* Main.storyboard */; };
+		F105B4B61BA771C70016F953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F105B4B51BA771C70016F953 /* Assets.xcassets */; };
+		F105B4B91BA771C70016F953 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F105B4B71BA771C70016F953 /* LaunchScreen.storyboard */; };
+		F105B4C41BA771C70016F953 /* HapticGalleryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105B4C31BA771C70016F953 /* HapticGalleryTests.swift */; };
+		F105B4CF1BA771C70016F953 /* HapticGalleryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105B4CE1BA771C70016F953 /* HapticGalleryUITests.swift */; };
+		F105B4D41BA771C70016F953 /* HapticGallery WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F105B4D31BA771C70016F953 /* HapticGallery WatchKit App.app */; };
+		F105B4DA1BA771C70016F953 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F105B4D81BA771C70016F953 /* Interface.storyboard */; };
+		F105B4DC1BA771C70016F953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F105B4DB1BA771C70016F953 /* Assets.xcassets */; };
+		F105B4E31BA771C70016F953 /* HapticGallery WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F105B4E21BA771C70016F953 /* HapticGallery WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F105B4E81BA771C70016F953 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105B4E71BA771C70016F953 /* InterfaceController.swift */; };
+		F105B4EA1BA771C70016F953 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105B4E91BA771C70016F953 /* ExtensionDelegate.swift */; };
+		F105B4EC1BA771C70016F953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F105B4EB1BA771C70016F953 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F105B4C01BA771C70016F953 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F105B4A31BA771C70016F953 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F105B4AA1BA771C70016F953;
+			remoteInfo = HapticGallery;
+		};
+		F105B4CB1BA771C70016F953 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F105B4A31BA771C70016F953 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F105B4AA1BA771C70016F953;
+			remoteInfo = HapticGallery;
+		};
+		F105B4D51BA771C70016F953 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F105B4A31BA771C70016F953 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F105B4D21BA771C70016F953;
+			remoteInfo = "HapticGallery WatchKit App";
+		};
+		F105B4E41BA771C70016F953 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F105B4A31BA771C70016F953 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F105B4E11BA771C70016F953;
+			remoteInfo = "HapticGallery WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F105B4F31BA771C70016F953 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F105B4E31BA771C70016F953 /* HapticGallery WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F105B4F71BA771C70016F953 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F105B4D41BA771C70016F953 /* HapticGallery WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F105B4AB1BA771C70016F953 /* HapticGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HapticGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F105B4AE1BA771C70016F953 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F105B4B01BA771C70016F953 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F105B4B31BA771C70016F953 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F105B4B51BA771C70016F953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F105B4B81BA771C70016F953 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F105B4BA1BA771C70016F953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F105B4BF1BA771C70016F953 /* HapticGalleryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HapticGalleryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F105B4C31BA771C70016F953 /* HapticGalleryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticGalleryTests.swift; sourceTree = "<group>"; };
+		F105B4C51BA771C70016F953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F105B4CA1BA771C70016F953 /* HapticGalleryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HapticGalleryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F105B4CE1BA771C70016F953 /* HapticGalleryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticGalleryUITests.swift; sourceTree = "<group>"; };
+		F105B4D01BA771C70016F953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F105B4D31BA771C70016F953 /* HapticGallery WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HapticGallery WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F105B4D91BA771C70016F953 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		F105B4DB1BA771C70016F953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F105B4DD1BA771C70016F953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F105B4E21BA771C70016F953 /* HapticGallery WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HapticGallery WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F105B4E71BA771C70016F953 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		F105B4E91BA771C70016F953 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		F105B4EB1BA771C70016F953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F105B4ED1BA771C70016F953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F105B4A81BA771C70016F953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F105B4BC1BA771C70016F953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F105B4C71BA771C70016F953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F105B4DF1BA771C70016F953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F105B4A21BA771C70016F953 = {
+			isa = PBXGroup;
+			children = (
+				F105B4AD1BA771C70016F953 /* HapticGallery */,
+				F105B4C21BA771C70016F953 /* HapticGalleryTests */,
+				F105B4CD1BA771C70016F953 /* HapticGalleryUITests */,
+				F105B4D71BA771C70016F953 /* HapticGallery WatchKit App */,
+				F105B4E61BA771C70016F953 /* HapticGallery WatchKit Extension */,
+				F105B4AC1BA771C70016F953 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F105B4AC1BA771C70016F953 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F105B4AB1BA771C70016F953 /* HapticGallery.app */,
+				F105B4BF1BA771C70016F953 /* HapticGalleryTests.xctest */,
+				F105B4CA1BA771C70016F953 /* HapticGalleryUITests.xctest */,
+				F105B4D31BA771C70016F953 /* HapticGallery WatchKit App.app */,
+				F105B4E21BA771C70016F953 /* HapticGallery WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F105B4AD1BA771C70016F953 /* HapticGallery */ = {
+			isa = PBXGroup;
+			children = (
+				F105B4AE1BA771C70016F953 /* AppDelegate.swift */,
+				F105B4B01BA771C70016F953 /* ViewController.swift */,
+				F105B4B21BA771C70016F953 /* Main.storyboard */,
+				F105B4B51BA771C70016F953 /* Assets.xcassets */,
+				F105B4B71BA771C70016F953 /* LaunchScreen.storyboard */,
+				F105B4BA1BA771C70016F953 /* Info.plist */,
+			);
+			path = HapticGallery;
+			sourceTree = "<group>";
+		};
+		F105B4C21BA771C70016F953 /* HapticGalleryTests */ = {
+			isa = PBXGroup;
+			children = (
+				F105B4C31BA771C70016F953 /* HapticGalleryTests.swift */,
+				F105B4C51BA771C70016F953 /* Info.plist */,
+			);
+			path = HapticGalleryTests;
+			sourceTree = "<group>";
+		};
+		F105B4CD1BA771C70016F953 /* HapticGalleryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F105B4CE1BA771C70016F953 /* HapticGalleryUITests.swift */,
+				F105B4D01BA771C70016F953 /* Info.plist */,
+			);
+			path = HapticGalleryUITests;
+			sourceTree = "<group>";
+		};
+		F105B4D71BA771C70016F953 /* HapticGallery WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				F105B4D81BA771C70016F953 /* Interface.storyboard */,
+				F105B4DB1BA771C70016F953 /* Assets.xcassets */,
+				F105B4DD1BA771C70016F953 /* Info.plist */,
+			);
+			path = "HapticGallery WatchKit App";
+			sourceTree = "<group>";
+		};
+		F105B4E61BA771C70016F953 /* HapticGallery WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F105B4E71BA771C70016F953 /* InterfaceController.swift */,
+				F105B4E91BA771C70016F953 /* ExtensionDelegate.swift */,
+				F105B4EB1BA771C70016F953 /* Assets.xcassets */,
+				F105B4ED1BA771C70016F953 /* Info.plist */,
+			);
+			path = "HapticGallery WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F105B4AA1BA771C70016F953 /* HapticGallery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F105B4F81BA771C70016F953 /* Build configuration list for PBXNativeTarget "HapticGallery" */;
+			buildPhases = (
+				F105B4A71BA771C70016F953 /* Sources */,
+				F105B4A81BA771C70016F953 /* Frameworks */,
+				F105B4A91BA771C70016F953 /* Resources */,
+				F105B4F71BA771C70016F953 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F105B4D61BA771C70016F953 /* PBXTargetDependency */,
+			);
+			name = HapticGallery;
+			productName = HapticGallery;
+			productReference = F105B4AB1BA771C70016F953 /* HapticGallery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F105B4BE1BA771C70016F953 /* HapticGalleryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F105B4FB1BA771C70016F953 /* Build configuration list for PBXNativeTarget "HapticGalleryTests" */;
+			buildPhases = (
+				F105B4BB1BA771C70016F953 /* Sources */,
+				F105B4BC1BA771C70016F953 /* Frameworks */,
+				F105B4BD1BA771C70016F953 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F105B4C11BA771C70016F953 /* PBXTargetDependency */,
+			);
+			name = HapticGalleryTests;
+			productName = HapticGalleryTests;
+			productReference = F105B4BF1BA771C70016F953 /* HapticGalleryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F105B4C91BA771C70016F953 /* HapticGalleryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F105B4FE1BA771C70016F953 /* Build configuration list for PBXNativeTarget "HapticGalleryUITests" */;
+			buildPhases = (
+				F105B4C61BA771C70016F953 /* Sources */,
+				F105B4C71BA771C70016F953 /* Frameworks */,
+				F105B4C81BA771C70016F953 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F105B4CC1BA771C70016F953 /* PBXTargetDependency */,
+			);
+			name = HapticGalleryUITests;
+			productName = HapticGalleryUITests;
+			productReference = F105B4CA1BA771C70016F953 /* HapticGalleryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F105B4D21BA771C70016F953 /* HapticGallery WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F105B4F41BA771C70016F953 /* Build configuration list for PBXNativeTarget "HapticGallery WatchKit App" */;
+			buildPhases = (
+				F105B4D11BA771C70016F953 /* Resources */,
+				F105B4F31BA771C70016F953 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F105B4E51BA771C70016F953 /* PBXTargetDependency */,
+			);
+			name = "HapticGallery WatchKit App";
+			productName = "HapticGallery WatchKit App";
+			productReference = F105B4D31BA771C70016F953 /* HapticGallery WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		F105B4E11BA771C70016F953 /* HapticGallery WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F105B4F01BA771C70016F953 /* Build configuration list for PBXNativeTarget "HapticGallery WatchKit Extension" */;
+			buildPhases = (
+				F105B4DE1BA771C70016F953 /* Sources */,
+				F105B4DF1BA771C70016F953 /* Frameworks */,
+				F105B4E01BA771C70016F953 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HapticGallery WatchKit Extension";
+			productName = "HapticGallery WatchKit Extension";
+			productReference = F105B4E21BA771C70016F953 /* HapticGallery WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F105B4A31BA771C70016F953 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "BrightSky Labs";
+				TargetAttributes = {
+					F105B4AA1BA771C70016F953 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					F105B4BE1BA771C70016F953 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = F105B4AA1BA771C70016F953;
+					};
+					F105B4C91BA771C70016F953 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = F105B4AA1BA771C70016F953;
+					};
+					F105B4D21BA771C70016F953 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					F105B4E11BA771C70016F953 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = F105B4A61BA771C70016F953 /* Build configuration list for PBXProject "HapticGallery" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F105B4A21BA771C70016F953;
+			productRefGroup = F105B4AC1BA771C70016F953 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F105B4AA1BA771C70016F953 /* HapticGallery */,
+				F105B4BE1BA771C70016F953 /* HapticGalleryTests */,
+				F105B4C91BA771C70016F953 /* HapticGalleryUITests */,
+				F105B4D21BA771C70016F953 /* HapticGallery WatchKit App */,
+				F105B4E11BA771C70016F953 /* HapticGallery WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F105B4A91BA771C70016F953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F105B4B91BA771C70016F953 /* LaunchScreen.storyboard in Resources */,
+				F105B4B61BA771C70016F953 /* Assets.xcassets in Resources */,
+				F105B4B41BA771C70016F953 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F105B4BD1BA771C70016F953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F105B4C81BA771C70016F953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F105B4D11BA771C70016F953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F105B4DC1BA771C70016F953 /* Assets.xcassets in Resources */,
+				F105B4DA1BA771C70016F953 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F105B4E01BA771C70016F953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F105B4EC1BA771C70016F953 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F105B4A71BA771C70016F953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F105B4B11BA771C70016F953 /* ViewController.swift in Sources */,
+				F105B4AF1BA771C70016F953 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F105B4BB1BA771C70016F953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F105B4C41BA771C70016F953 /* HapticGalleryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F105B4C61BA771C70016F953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F105B4CF1BA771C70016F953 /* HapticGalleryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F105B4DE1BA771C70016F953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F105B4EA1BA771C70016F953 /* ExtensionDelegate.swift in Sources */,
+				F105B4E81BA771C70016F953 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F105B4C11BA771C70016F953 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F105B4AA1BA771C70016F953 /* HapticGallery */;
+			targetProxy = F105B4C01BA771C70016F953 /* PBXContainerItemProxy */;
+		};
+		F105B4CC1BA771C70016F953 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F105B4AA1BA771C70016F953 /* HapticGallery */;
+			targetProxy = F105B4CB1BA771C70016F953 /* PBXContainerItemProxy */;
+		};
+		F105B4D61BA771C70016F953 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F105B4D21BA771C70016F953 /* HapticGallery WatchKit App */;
+			targetProxy = F105B4D51BA771C70016F953 /* PBXContainerItemProxy */;
+		};
+		F105B4E51BA771C70016F953 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F105B4E11BA771C70016F953 /* HapticGallery WatchKit Extension */;
+			targetProxy = F105B4E41BA771C70016F953 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F105B4B21BA771C70016F953 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F105B4B31BA771C70016F953 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F105B4B71BA771C70016F953 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F105B4B81BA771C70016F953 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F105B4D81BA771C70016F953 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F105B4D91BA771C70016F953 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F105B4EE1BA771C70016F953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F105B4EF1BA771C70016F953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F105B4F11BA771C70016F953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "HapticGallery WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = brightsky.HapticGallery.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		F105B4F21BA771C70016F953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "HapticGallery WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = brightsky.HapticGallery.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		F105B4F51BA771C70016F953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = HapticGallery_WatchKit_Extension;
+				INFOPLIST_FILE = "HapticGallery WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = brightsky.HapticGallery.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		F105B4F61BA771C70016F953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = HapticGallery_WatchKit_Extension;
+				INFOPLIST_FILE = "HapticGallery WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = brightsky.HapticGallery.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		F105B4F91BA771C70016F953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HapticGallery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = brightsky.HapticGallery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F105B4FA1BA771C70016F953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HapticGallery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = brightsky.HapticGallery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F105B4FC1BA771C70016F953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HapticGalleryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = brightsky.HapticGalleryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HapticGallery.app/HapticGallery";
+			};
+			name = Debug;
+		};
+		F105B4FD1BA771C70016F953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HapticGalleryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = brightsky.HapticGalleryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HapticGallery.app/HapticGallery";
+			};
+			name = Release;
+		};
+		F105B4FF1BA771C70016F953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HapticGalleryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = brightsky.HapticGalleryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HapticGallery;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F105B5001BA771C70016F953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HapticGalleryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = brightsky.HapticGalleryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HapticGallery;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F105B4A61BA771C70016F953 /* Build configuration list for PBXProject "HapticGallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F105B4EE1BA771C70016F953 /* Debug */,
+				F105B4EF1BA771C70016F953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F105B4F01BA771C70016F953 /* Build configuration list for PBXNativeTarget "HapticGallery WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F105B4F11BA771C70016F953 /* Debug */,
+				F105B4F21BA771C70016F953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F105B4F41BA771C70016F953 /* Build configuration list for PBXNativeTarget "HapticGallery WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F105B4F51BA771C70016F953 /* Debug */,
+				F105B4F61BA771C70016F953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F105B4F81BA771C70016F953 /* Build configuration list for PBXNativeTarget "HapticGallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F105B4F91BA771C70016F953 /* Debug */,
+				F105B4FA1BA771C70016F953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F105B4FB1BA771C70016F953 /* Build configuration list for PBXNativeTarget "HapticGalleryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F105B4FC1BA771C70016F953 /* Debug */,
+				F105B4FD1BA771C70016F953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F105B4FE1BA771C70016F953 /* Build configuration list for PBXNativeTarget "HapticGalleryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F105B4FF1BA771C70016F953 /* Debug */,
+				F105B5001BA771C70016F953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F105B4A31BA771C70016F953 /* Project object */;
+}
